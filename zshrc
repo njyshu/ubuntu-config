@@ -17,6 +17,8 @@ export ANDROID_HOME=$HOME/tools/android/tools
 export PATH=$ANDROID_HOME:$GIT_HOME/bin:$GIT_HOME/libexec/git-core:$PATH
 # set git man
 export MANPATH=$GIT_HOME/manual:$GIT_HOME/share/man:$MANPATH
+# set zend framework sh,help: zf.sh --help
+alias zf.sh=/home/macro/tools/zend/bin/zf.sh
 
 # Emacs风格键绑定
 bindkey -e
